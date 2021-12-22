@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functions</title>
+</head>
+<body>
+<script>
+
+    for(var p = 31; p > 0; p--){
+        galaxyBrain(p)
+    }
+
+    for (var i = 0; i < 5; i++) {
+        console.log("*" + i);
+    }
+    var h = "";
+    for (var p = 0; p < 5; p++) {
+        h += "*";
+        galaxyBrain(337);
+
+    }
+
+    //function functionName (parameter){
+    // stuff to do
+    //   }
+    function galaxyBrain(numStars) {
+        var h = "";
+        for (var p = 0; p < numStars; p++) {
+            h += "*";
+
+        }
+        console.log(h);
+
+    }
+</script>
+</body>
+</html>
