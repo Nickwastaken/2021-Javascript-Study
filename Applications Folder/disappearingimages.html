@@ -1,0 +1,29 @@
+<!--
+    Want to link a button to make a specific image disappear
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disappearing Image</title>
+    <script>
+        function ByeBye(){
+            var image = document.getElementById("nft");
+            image.style.display = "none";
+
+            var monke2 = document.getElementById("nft2");
+            monke2.style.display = "block";
+        }
+
+    </script>
+</head>
+
+
+<body>
+
+<button type="button" onClick="ByeBye()">Monke See</button>
+<img id="nft" src="../imagefolder/nft.jpg" width="500" height="450"/>
+<img id="nft2" src="../imagefolder/nft2.jpg" width="600" height="450" style="display: none"/>
+
+</body>
+</html>
